@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/newportfolio.git/static/css/main.5a65d36f.css",
+    "main.js": "/newportfolio.git/static/js/main.7e348a92.js",
+    "static/media/fwi2ef.jpg": "/newportfolio.git/static/media/fwi2ef.1cecd48514a268f5334a.jpg",
+    "index.html": "/newportfolio.git/index.html",
+    "main.5a65d36f.css.map": "/newportfolio.git/static/css/main.5a65d36f.css.map",
+    "main.7e348a92.js.map": "/newportfolio.git/static/js/main.7e348a92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a65d36f.css",
+    "static/js/main.7e348a92.js"
+  ]
+}
