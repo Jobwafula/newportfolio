@@ -10,7 +10,7 @@ export default function Navbar() {
     <div className='header'>
         <div>
             <Link to='/'>
-                <h1>Wafula</h1>
+                <h1>Wafula.</h1>
             </Link>
         </div>
     
