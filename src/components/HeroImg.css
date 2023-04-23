@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     height: 60vh;
-     background-color: rgba(0, 0, 0, 0.5);  
+    background-color: rgba(0, 0, 0, 0.5);  
 
 }
 .hero-img h1{
@@ -13,7 +13,7 @@
 }
 .hero-img::before{
     content: "";
-    background-image: url("https://unsplash.com/photos/tj7Bj_743JA");
+    background-image: url('../assets/james-harrison-vpOeXr5wmR4-unsplash.jpg');
     background-size: cover;
     background-position: center top;
     height: 100%;
