@@ -7,10 +7,13 @@ import AboutMe from '../components/AboutMe'
 export default function About() {
   return (
     <div>
-        <Navbar />
-        <HeroImg2  />
-         <AboutMe />
-      <Footer />
+         <Navbar /> 
+        <HeroImg2  /> 
+        <div>
+          <AboutMe />
+        </div>
+         
+       <Footer /> 
     </div>
   )
 }
