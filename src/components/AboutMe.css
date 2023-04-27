@@ -14,3 +14,10 @@
 .wrapper{
     display: flex;
 }
+.skillsMap{
+    display: inline-block;
+}
+.mapdiv{
+    width: 300px;
+    height: 150px;
+}
