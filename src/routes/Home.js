@@ -3,20 +3,27 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import AboutMe from '../components/AboutMe'
-import { FaWhatsapp } from 'react-icons/fa'
+import { FaWhatsappSquare } from 'react-icons/fa'
 
 export default function Home() {
+  const styles={
+    color:'green',
+    position:'fixed',
+    bottom:10,
+    right:10
+  }
   return (
     <div>
       <Navbar />
       <Hero />
-      <div>
-          <a style={{color:'green',position:'fixed',margin:'90vw 90vh'}}href="https://api.whatsapp.com/send?phone=254741699821">
-            <FaWhatsapp size={40} color='green' />
-          </a>
-        </div>
+    
       <AboutMe />
       <Footer />
+      <div style={styles}>
+          <a href="https://api.whatsapp.com/send?phone=254741699821">
+            <FaWhatsappSquare size={40} color='green' />
+          </a>
+        </div>
     </div>
   )
 }
