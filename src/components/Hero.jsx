@@ -12,7 +12,7 @@ export default function Hero() {
       
          
          <div className='content'>
-          <p>HI, I'M WAFULA</p>
+          <p className='anime-text'>HI, I'M WAFULA</p>
           <h1>Web Developer</h1>
           <div>
             <Link to='/projects' className='btn'>Projects</Link>
