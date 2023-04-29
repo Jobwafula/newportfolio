@@ -31,7 +31,7 @@ export default function Footer() {
             </div>
             <form />
         <div>
-          <a style={{float:'right'}}href="https://api.whatsapp.com/send=+254741699821">
+          <a style={{float:'right'}}href="https://api.whatsapp.com/send?phone=254741699821">
             <FaWhatsapp size={40} color='green' />
           </a>
         </div>
