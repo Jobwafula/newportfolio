@@ -37,7 +37,7 @@ export default function Form() {
             <textarea id="subject" name="subject" placeholder="Type your message here.." style={{height:'200px'}}></textarea>
           </div>
         </div>
-        <div class="row">
+        <div class="">
           <input type="submit" value="Submit" />
         </div>
   </form>
