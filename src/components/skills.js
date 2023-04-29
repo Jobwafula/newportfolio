@@ -1,4 +1,4 @@
-import {DiJsBadge,}  from 'react-icons/di'
+import {DiJsBadge,DiReact}  from 'react-icons/di'
 import {BsFiletypeCss} from 'react-icons/bs'
 import {AiFillHtml5} from 'react-icons/ai'
 const skills =[{
@@ -17,7 +17,7 @@ const skills =[{
     text:'Javascript'
 },
 {
-    icon:'',
+    icon:<DiReact  size={40}/>,
     id:2,
     text:'REACT'
 }

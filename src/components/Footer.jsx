@@ -1,6 +1,6 @@
 import React from 'react'
 import './FooterStyles.css'
-import { FaFacebook, FaGithub, FaHome, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaHome, FaMailBulk, FaPhone, FaTwitter, FaWhatsapp } from 'react-icons/fa'
 
 export default function Footer() {
   return (
@@ -27,7 +27,14 @@ export default function Footer() {
                 <FaFacebook size={20} style={{color:'#fff',marginRight:'1rem'}}/>
                 <FaTwitter size={20} style={{color:'#fff',marginRight:'1rem'}}/>
                 <FaGithub size={20} style={{color:'#fff',marginRight:'1rem'}}/>
+                
             </div>
+            <form />
+        <div>
+          <a style={{float:'right'}}href="https://api.whatsapp.com/send=+254741699821">
+            <FaWhatsapp size={40} color='green' />
+          </a>
+        </div>
         </div>
       
     </div>

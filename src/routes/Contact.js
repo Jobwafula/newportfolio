@@ -9,7 +9,11 @@ export default function Contact() {
     <div>
         <Navbar/>
         <HeroImg2  heading='CONTACT' text='lets chart'/> 
+        
         <Form />
+        <div>
+          <a href="https://api.whatsapp.com/send=+254741699821">send message</a>
+        </div>
       <Footer />
     </div>
   )
