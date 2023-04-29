@@ -5,6 +5,7 @@ import About from './routes/About';
 import Projects from './routes/Projects';
 import Contact from './routes/Contact';
 import { Routes,Route } from 'react-router-dom';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/About' element={<About />}></Route>
         <Route path='/Projects' element={<Projects />}></Route>
         <Route path='/Contact' element={<Contact />}></Route>
+        <Route path='/Form' element={<Form />}></Route>
       </Routes>
       
     </div>
