@@ -38,6 +38,26 @@
     margin-bottom: 10px;
     border-radius: 5px;
 }
+.mapDiv{
+    width: 200px;
+    background-color:#fff;
+    height: 90px;
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    gap: 30px;
+    padding: 0 20px;
+    border:1px solid grey;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.divRow{
+    /* display:'flex'; */
+
+}
+.small{
+ display: none;
+}
 .mapText{
     color: black;
     text-transform: uppercase;
@@ -48,6 +68,9 @@
     /* background-color:'white'; */
 }
 @media screen and (max-width:1040px) {
+    .small{
+        display: initial;
+    }
     .wrapper{
         display: block;
     }

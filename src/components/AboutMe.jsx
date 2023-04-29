@@ -3,6 +3,10 @@ import React from 'react'
 import './AboutMe.css'
 import job from '../assets/job.jpeg'
 import data from './skills.js'
+import {DiJsBadge,DiReact}  from 'react-icons/di'
+import {BsFiletypeCss} from 'react-icons/bs'
+import {AiFillHtml5} from 'react-icons/ai'
+
 
 export default function AboutMe() {
     const skills = data.map((item)=>
@@ -32,9 +36,40 @@ export default function AboutMe() {
         </div>
         <div className='skills'>
             <h1 style={{color:'black'}}>MY SKILLS</h1>
-            <p>What I am well conversant with</p>
+            <p style={{color:'black'}}>What I am well conversant with</p>
             <div className='skillsMap'>
                 {skills}
+            </div>
+            <div style={{padding:'10px'}} className='small'>
+              <div style={{display:'flex',justifyContent:'space-between'}}>
+                  <div className='mapDiv'>
+                    <div className='mapImage'>
+                      <AiFillHtml5 size={40} />
+                    </div>
+                    <p className='mapText'>HTML</p>
+                  </div>
+                  <div className='mapDiv'>
+                    <div className='mapImage'>
+                      <BsFiletypeCss size={40} />
+                    </div>
+                    <p className='mapText'>CSS</p>
+                  </div>
+              </div>
+
+              <div style={{display:'flex',justifyContent:'space-between'}}>
+                <div className='mapDiv'>
+                  <div className='mapImage'>
+                    <DiJsBadge size={40} />
+                  </div>
+                  <p className='mapText'>JAVASCRIPT</p>
+                </div>
+                <div className='mapDiv'>
+                  <div className='mapImage'>
+                    <DiReact size={40} />
+                  </div>
+                  <p className='mapText'>react</p>
+                </div>
+              </div>
             </div>
         </div>  
       </div>
