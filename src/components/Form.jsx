@@ -4,13 +4,13 @@ import './FormStyles.css'
 export default function Form() {
   return (
     <div className='form-container'>
-        <form className='form-content'>
+        <form className='form-content' action='http://localhost:8080/form' method='post'>
         <div class="row">
           <div class="col-25">
             <label for="fname">First Name</label>
           </div>
           <div class="col-75">
-            <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required/>
           </div>
         </div>
         <div class="row">
@@ -18,7 +18,7 @@ export default function Form() {
             <label for="lname">Last Name</label>
           </div>
           <div class="col-75">
-            <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required/>
           </div>
         </div>
         <div class="row">
@@ -26,7 +26,7 @@ export default function Form() {
             <label for="email">Email</label>
           </div>
           <div class="col-75">
-            <input type="text" id="lname" name="lastname" placeholder="youremail@gmail.com.."/>
+            <input type="text" id="lname" name="email" placeholder="youremail@gmail.com.." required/>
           </div>
         </div>
         <div class="row">
