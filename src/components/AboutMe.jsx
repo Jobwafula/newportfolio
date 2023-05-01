@@ -70,9 +70,9 @@ export default function AboutMe() {
               <div style={{display:'flex',gap:'10vw'}}>
                 <div className='mapDiv'>
                   <div className='mapImage'>
-                    <DiJsBadge size={40} />
+                    <DiJsBadge size={20} />
                   </div>
-                  <p className='mapText'>JAVASCRIPT</p>
+                  <p className='mapText'>es6</p>
                 </div>
                 <div className='mapDiv'>
                   <div className='mapImage'>
