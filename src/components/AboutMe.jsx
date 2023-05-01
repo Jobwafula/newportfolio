@@ -51,7 +51,7 @@ export default function AboutMe() {
             <div className='skillsMap'>
                 {skills}
             </div>
-            <div style={{padding:'10px'}} className='small'>
+            {/* <div style={{padding:'10px'}} className='small'>
               <div style={{display:'flex',justifyContent:'space-between'}}>
                   <div className='mapDiv'>
                     <div className='mapImage'>
@@ -65,7 +65,7 @@ export default function AboutMe() {
                     </div>
                     <p className='mapText'>CSS</p>
                   </div>
-              </div>
+              </div> */}
 
               {/* <div style={{display:'flex'}}>
                 <div className='mapDiv'>
