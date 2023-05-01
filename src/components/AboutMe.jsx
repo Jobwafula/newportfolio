@@ -52,7 +52,7 @@ export default function AboutMe() {
                 {skills}
             </div>
             <div style={{padding:'10px'}} className='small'>
-              <div style={{display:'flex',justifyContent:'space-between'}}>
+              <div style={{display:'flex',gap:'10vw'}}>
                   <div className='mapDiv'>
                     <div className='mapImage'>
                       <AiFillHtml5 size={40} />
@@ -67,7 +67,7 @@ export default function AboutMe() {
                   </div>
               </div>
 
-              <div style={{display:'flex',justifyContent:'space-between'}}>
+              <div style={{display:'flex',gap:'10vw'}}>
                 <div className='mapDiv'>
                   <div className='mapImage'>
                     <DiJsBadge size={40} />
