@@ -24,10 +24,10 @@
         padding: 10px;
     }
     .left{
-       max-width: 300px; 
+       max-width: 75%; 
     }
     .right{
-        max-width: 300px;
+        max-width: 75%;
         margin-top: 60px;
     }
     

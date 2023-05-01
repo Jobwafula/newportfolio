@@ -67,7 +67,7 @@ export default function AboutMe() {
                   </div>
               </div>
 
-              <div style={{display:'flex',justifyContent:'space-between',padding:'10px'}}>
+              <div style={{display:'flex',justifyContent:'space-between'}}>
                 <div className='mapDiv'>
                   <div className='mapImage'>
                     <DiJsBadge size={40} />
