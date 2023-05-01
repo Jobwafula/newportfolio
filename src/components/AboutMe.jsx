@@ -67,7 +67,7 @@ export default function AboutMe() {
                   </div>
               </div>
 
-              <div style={{display:'flex'}}>
+              {/* <div style={{display:'flex'}}>
                 <div className='mapDiv'>
                   <div className='mapImage'>
                     <DiJsBadge size={40} />
@@ -80,7 +80,7 @@ export default function AboutMe() {
                   </div>
                   <p className='mapText'>react</p>
                 </div>
-              </div>
+              </div> */}
             </div>
         </div>  
       </div>
