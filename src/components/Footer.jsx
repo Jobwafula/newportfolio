@@ -29,7 +29,7 @@ export default function Footer() {
                 <FaGithub size={20} style={{color:'#fff',marginRight:'1rem'}}/>
                 
             </div>
-            <form />
+            {/* <form /> */}
         
         </div>
       

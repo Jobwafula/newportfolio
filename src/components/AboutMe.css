@@ -76,7 +76,7 @@
 @media screen  and (min-width:768px){
     .skillsMap{
         display: flex;
-        justify-content: center ;
+        justify-content: space-between;
     }
     
 }
@@ -84,10 +84,13 @@
     
     .wrapper{
         display: block;
+        background-color: whitesmoke;
+        margin:10px;
     }
     .skillsMap{
         display: none;
-        justify-content: center ;
+        /* justify-content: center ; */
+        
     
     }
     
@@ -102,9 +105,23 @@
     .image{
         width: 100%;
     }
+    .skills{
+        background-color:whitesmoke; 
+        margin: 0 10px;
+        padding: 10px;
+    }
+    .mainwrapper{
+        background-color: rgb(0, 0,0);
+        opacity: 0.8;
+        border: none;
+    }
         
 }
 .image-text{
     color: black;
     padding: 10px;
+    /* max-width: 50%; */
+    
+
+
 }
