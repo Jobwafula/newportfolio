@@ -39,14 +39,14 @@
     border-radius: 5px;
 }
 .mapDiv{
-    width: 200px;
+    width: 35vw;
     background-color:#fff;
     height: 90px;
     display: flex;
     /* justify-content: center; */
     /* justify-content: space-between; */
-    gap: 30px;
-    padding: 0 20px;
+    gap: 10px;
+    padding: 10px 10px;
     border:1px solid grey;
     margin-bottom: 10px;
     border-radius: 5px;
