@@ -39,7 +39,7 @@
     border-radius: 5px;
 }
 .mapDiv{
-    width: 35vw;
+   max-width: 35vw;
     background-color:#fff;
     height: 90px;
     display: flex;
