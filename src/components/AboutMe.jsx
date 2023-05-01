@@ -3,7 +3,7 @@ import React from 'react'
 import './AboutMe.css'
 import job from '../assets/job.jpeg'
 import data from './skills.js'
-import {DiJsBadge,DiReact}  from 'react-icons/di'
+// import {DiJsBadge,DiReact}  from 'react-icons/di'
 import {BsFiletypeCss} from 'react-icons/bs'
 import {AiFillHtml5} from 'react-icons/ai'
 import { useState,useEffect } from 'react'
@@ -51,7 +51,7 @@ export default function AboutMe() {
             <div className='skillsMap'>
                 {skills}
             </div>
-            {/* <div style={{padding:'10px'}} className='small'>
+            <div style={{padding:'10px'}} className='small'>
               <div style={{display:'flex',justifyContent:'space-between'}}>
                   <div className='mapDiv'>
                     <div className='mapImage'>
@@ -65,9 +65,9 @@ export default function AboutMe() {
                     </div>
                     <p className='mapText'>CSS</p>
                   </div>
-              </div> */}
+              </div>
 
-              {/* <div style={{display:'flex'}}>
+              {/* <div style={{display:'flex',justifyContent:'space-between'}}>
                 <div className='mapDiv'>
                   <div className='mapImage'>
                     <DiJsBadge size={40} />
@@ -81,6 +81,8 @@ export default function AboutMe() {
                   <p className='mapText'>react</p>
                 </div>
               </div> */}
+
+
             </div>
         </div>  
       </div>
