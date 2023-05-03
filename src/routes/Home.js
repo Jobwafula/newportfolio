@@ -4,7 +4,7 @@ import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import AboutMe from '../components/AboutMe'
 import { FaWhatsappSquare } from 'react-icons/fa'
-import Projects from './Projects'
+import Projectsmap from '../components/Projectsmap'
 
 export default function Home() {
   const styles={
@@ -19,7 +19,7 @@ export default function Home() {
       <Hero />
     
       <AboutMe />
-      <Projects />
+      <Projectsmap />
       <Footer />
       <div style={styles}>
           <a href="https://api.whatsapp.com/send?phone=254741699821">
