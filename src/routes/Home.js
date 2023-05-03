@@ -17,9 +17,9 @@ export default function Home() {
     <div>
       <Navbar />
       <Hero />
-    
-      <AboutMe />
       <Projectsmap />
+      <AboutMe />
+      {/* <Projectsmap /> */}
       <Footer />
       <div style={styles}>
           <a href="https://api.whatsapp.com/send?phone=254741699821">
