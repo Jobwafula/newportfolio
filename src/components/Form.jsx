@@ -34,7 +34,7 @@ export default function Form() {
             <label for="subject">Message</label>
           </div>
           <div class="col-75">
-            <textarea id="subject" name="subject" placeholder="Type your message here.." style={{height:'200px'}}></textarea>
+            <textarea id="subject" name="message" placeholder="Type your message here.." style={{height:'200px'}}></textarea>
           </div>
         </div>
         <div class="">

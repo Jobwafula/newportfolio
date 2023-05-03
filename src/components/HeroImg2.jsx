@@ -8,7 +8,7 @@ export default function HeroImg2(props) {
         <div className='heading'>
             <h1>{props.heading}</h1>
             <p>{props.text}</p>
-            <div className='btn' style={{postion:'absolute',bottom:0}}>
+            <div className='btn' style={{}}>
                <Link to='/Form'>Send Email</Link>
             </div>
         </div>
