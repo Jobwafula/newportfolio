@@ -107,7 +107,7 @@
         width: 100%;
     }
     .skills{
-        background-color:whitesmoke; 
+        /* background-color:whitesmoke;  */
         /* margin: 0 10px; */
         padding: 10px;
         margin: 10px;
@@ -115,7 +115,7 @@
     }
     .mainwrapper{
         background-color: rgb(0, 0,0);
-        opacity: 0.8;
+        /* opacity: 0.8; */
         border: none;
     }
         

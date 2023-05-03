@@ -46,8 +46,8 @@ export default function AboutMe() {
             </div>
         </div>
         <div className='skills'>
-            <h1 style={{color:'black'}}>MY SKILLS</h1>
-            <p style={{color:'black'}}>What I am well conversant with</p>
+            <h1 style={{color:'white'}}>MY SKILLS</h1>
+            <p style={{color:'white'}}>What I am well conversant with</p>
             <div className='skillsMap'>
                 {skills}
             </div>

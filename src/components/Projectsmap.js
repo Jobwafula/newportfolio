@@ -12,10 +12,10 @@ export default function Projectsmap() {
     <p>{item.text}</p>
   </div>)
   return (
-    <div>
-       <div className='mapContainer'>
+    <div className='container'>
+       
          {proj}
-      </div>
+      
     </div>
   )
 }
