@@ -14,12 +14,12 @@
     .projcontainer{
         background-color: rgb(0, 0,0);
         /* opacity: 0.8; */
-        margin: 10px;
+        margin:0 10px;
         
     }
     .mapContainer{
         display: block;
-        margin: 10px;
+        margin:0 10px;
     }
     .projects{
         
