@@ -1,5 +1,5 @@
 .header{
-    display: flex;
+display: flex;
 justify-content: last baseline;
 padding: 1rem;
 position: fixed;
@@ -34,13 +34,10 @@ z-index: 10;
         left: -100%;
         z-index: -3;
         transition: 0.3s;
-        
-
     }
     
     .nav-menu.active{
-        left: 0;
-        
+        left: 0;   
     }
     .nav-menu li{
         padding: 1rem 0;

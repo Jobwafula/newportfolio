@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import HeroImg2 from '../components/HeroImg2'
+import Heroproject from '../components/HeroProject'
 import projects from '../components/projectsdata'
 import './projectsstyles.css';
 export default function Projects() {
@@ -13,9 +13,9 @@ export default function Projects() {
     <p>{item.text}</p>
   </div>)
   return (
-    <div>
+    <div className='container'>
       <Navbar />
-      <HeroImg2 heading='PROJECTS.' text='My recent most projects'/>
+      <Heroproject heading='PROJECTS.' text='My recent most projects'/> 
       <div className='mapContainer'>
          {proj}
       </div>
