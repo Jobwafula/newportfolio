@@ -5,7 +5,7 @@ import library from '../assets/library.jpeg'
 import chat from '../assets/chat.jpeg'
 const projects =[{
     img:weather,
-    text:'A weather app that typically displays information about the current weather conditions , as well as forecast for the upcoming hours and days.The front end includes features such as location input, current weather conditions,forecast graphics,interactive elements, and alerts and notifications. The of the front end is to provide accurate and up-to-date information about the weather in the users location in an intuitive and visually appealing way'
+    text:'A weather app that typically displays information about the current weather conditions ,forecast for the upcoming hours and days. Location input, current weather conditions,forecast graphics,interactive elements, and alerts and notifications included. Provide users accurate and up-to-date information in visually appealing way'
 },
 {
     img:ecommerce,
