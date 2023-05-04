@@ -39,7 +39,7 @@
     }
     .projects{
         
-        /* background-color: rgb(139, 139, 86); */
+        border: 1px solid white;
     }
     .img{
         width: 100%;
