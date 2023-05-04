@@ -9,10 +9,11 @@ export default function Projectsmap() {
     <div className='projects'>
       <img className='img'src={item.img} alt='weather'/>
     </div>
-    <p>{item.text}</p>
+    <div className='textMap'><p>{item.text}</p></div>
+    
   </div>)
   return (
-    <div className='container'>
+    <div className='projcontainer'>
        
          {proj}
       
