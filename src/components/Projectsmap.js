@@ -5,8 +5,8 @@ import './projectsstyles.css';
 export default function Projectsmap() {
 
     const proj = projects.map((item)=>
-  <div>
-    <div className='projects'>
+  <div className='projects'>
+    <div >
       <img className='img'src={item.img} alt='weather'/>
     </div>
     <div className='textMap'><p>{item.text}</p></div>
