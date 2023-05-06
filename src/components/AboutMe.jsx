@@ -110,7 +110,7 @@ export default function AboutMe() {
                   <div className='mapImage'>
                     <DiReact size={40} />
                   </div>
-                  <p className='mapText'>cloud-computing</p>
+                  <p className='mapText'>AWS</p>
                 </div>
               </div>
 
