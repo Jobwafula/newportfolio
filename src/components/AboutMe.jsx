@@ -104,7 +104,7 @@ export default function AboutMe() {
                   <div className='mapImage'>
                     <DiJsBadge size={40} />
                   </div>
-                  <p className='mapText'>bootstrap</p>
+                  <p className='mapText'>strap</p>
                 </div>
                 <div className='mapDiv'>
                   <div className='mapImage'>
