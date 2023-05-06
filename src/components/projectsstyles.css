@@ -23,7 +23,6 @@
     .projcontainer{
         background-color: rgb(0, 0,0);
         /* opacity: 0.8; */
-        margin:0 10px;
         background-color: black;
         
     }
@@ -38,6 +37,7 @@
         margin:0 10px;
     }
     .projects{
+        margin: 10px;
         
         border: 1px solid white;
     }

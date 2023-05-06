@@ -13,10 +13,16 @@ export default function Projectsmap() {
     
   </div>)
   return (
+    <div>
+      <div>
+    <h2 style={{color:'white',marginLeft:'10px'}}>MY RECENT MOST PROJECTS</h2>
+  </div>
     <div className='projcontainer'>
        
          {proj}
       
     </div>
+    </div>
+    
   )
 }

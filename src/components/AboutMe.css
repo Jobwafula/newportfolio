@@ -17,7 +17,8 @@
 .wrapper{
     display: flex;
     justify-content: space-between;
-    gap:20px;
+    max-width: 100vw;
+    /* gap:20px; */
 }
 .skillsMap{
     display:flex;
@@ -85,8 +86,9 @@
     
     .wrapper{
         display: block;
-        background-color: whitesmoke;
+        /* background-color: whitesmoke; */
         margin:10px;
+        border: 1px solid white;
     }
     .skillsMap{
         display: none;
@@ -111,6 +113,7 @@
         /* margin: 0 10px; */
         padding: 10px;
         margin: 10px;
+        border: 1px solid white;
         
     }
     .mainwrapper{
@@ -118,13 +121,24 @@
         /* opacity: 0.8; */
         border: none;
     }
+    .image-text{
+        color:black;
+        /* background-color: white;  */
+        padding: 10px;
+        font-size: 1.2rem;
+        /* max-width: 50%; */
+        
+    
+    
+    }
         
 }
 .image-text{
     color: black;
-    padding: 10px;
-    /* max-width: 50%; */
-    
+    font-size: 1.2rem;
 
-
+}
+.image{
+    background-size: cover;
+    height: 100%;
 }

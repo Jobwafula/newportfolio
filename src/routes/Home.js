@@ -17,8 +17,8 @@ export default function Home() {
     <div>
       <Navbar />
       <Hero />
-      <Projectsmap />
       <AboutMe />
+      <Projectsmap />
       {/* <Projectsmap /> */}
       <Footer />
       <div style={styles}>
