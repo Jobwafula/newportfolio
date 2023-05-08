@@ -23,7 +23,7 @@ export default function Home() {
       <Footer />
       <div style={styles}>
           <a href="https://api.whatsapp.com/send?phone=254741699821">
-            <FaWhatsappSquare size={40} color='green' />
+            <FaWhatsappSquare size={40} color=' rgba(82, 138, 13, 0.454)' />
           </a>
         </div>
     </div>
