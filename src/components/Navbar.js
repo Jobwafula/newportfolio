@@ -38,7 +38,7 @@ export default function Navbar() {
      </ul>
 
      <div className='harmburger' onClick={handleClick}>
-        {click ?(<FaTimes size= {20} style={{color:"#fff"}}/>):
+        {click ?(<FaTimes size= {20} style={{color:"rgb(109, 105, 105);"}}/>):
          (<FaBars size= {20} style={{color:"#fff"}}/>)
         }
      </div>
