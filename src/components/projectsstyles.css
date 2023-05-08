@@ -5,6 +5,12 @@
     
 
 }
+.projects:hover{
+    padding: 10px;
+}
+.projects:hover::after{
+    padding: 10px;
+}
 .projcontainer{
     display:flex;
      flex-wrap: wrap; 
