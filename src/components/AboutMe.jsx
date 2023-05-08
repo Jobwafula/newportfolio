@@ -30,8 +30,8 @@ export default function AboutMe() {
   return (
     <div>
       <div className='mainwrapper'>
-        <h1 style={{color:'white',margin:'0 10px'}}>About Me</h1>
-        <h2 style={{color:'white',margin:'0 10px'}}>My Interests</h2>
+        <h1 style={{color:'white',margin:'0 10px',padding:'0 10px'}}>About Me</h1>
+        <h2 style={{color:'white',margin:'0 10px',padding:'0 10px'}}>My Interests</h2>
         <div className='wrapper' >
            <div className='img-mask'>
                 <img className='image' src={job} alt='job'/>
